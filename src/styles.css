@@ -1,0 +1,81 @@
+#root{
+    height:50rem;
+    margin: -30px;
+    background-image:
+            radial-gradient(at 1% 83%, hsla(236,74%,72%,1) 0px, transparent 50%),
+            radial-gradient(at 68% 72%, hsla(17,71%,72%,1) 0px, transparent 50%),
+            radial-gradient(at 35% 35%, hsla(333,62%,79%,1) 0px, transparent 50%),
+            radial-gradient(at 88% 94%, hsla(6,67%,60%,1) 0px, transparent 50%),
+            radial-gradient(at 25% 52%, hsla(346,95%,63%,1) 0px, transparent 50%),
+            radial-gradient(at 84% 8%, hsla(334,91%,74%,1) 0px, transparent 50%),
+            radial-gradient(at 84% 37%, hsla(289,96%,78%,1) 0px, transparent 50%);
+}
+
+.floating-button {
+    position: fixed;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 2px 2px 2px #5d5d5d;
+  }
+
+  .modal {
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    width: 50%;
+  }
+.chess{
+    padding-top: 30px;
+}
+  .modal-content {
+    padding: 20px;
+    width: 550px;
+    border-radius: 20px;
+    margin-left: -50px;
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 0;
+    line-height: 1;
+    font-size: 10px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+  }
+
+  .fade-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  .fade-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  .fade-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .fade-exit-active {
+      opacity: 0;
+      transform: scale(0.9);
+      transition: opacity 300ms, transform 300ms;
+  }
+
+
